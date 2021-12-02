@@ -1,0 +1,12 @@
+#+TITLE: Minishell
+#+AUTHOR: paure
+
+* Project
+Create a simple shell by reproducing some functionnalities of bash.
+
+* Usage
+~make~ to build the project
+~make fclean~ to clean the project
+~./minishell~ to run the executable.
+
+Do some commands !
