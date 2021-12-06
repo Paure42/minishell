@@ -4,9 +4,43 @@
 * Project
 Create a simple shell by reproducing some functionnalities of bash.
 
+* Built-in
+
+- ~echo~ and it's option '-n'
+
+- ~cd~ with absolute or relative path
+
+- ~pwd~ without any options
+
+- ~export~ without any options
+
+- ~unset~ without any options or arguments
+
+- ~env~ without any options or arguments
+
+- ~exit~ without any options
+
+- '/;/' separates the commands
+
+- '/'/' and '/"/' work the same as bash except for multiline
+
+- '/</' and '/>/ and '/>>/' work the same as bash
+
+- '/|/' work the same as bash
+
+- environment variables followed by '/$/' work the same as bash
+
+- '/$?/' work the same as bash
+
+- /ctrl-C, ctrl-D and ctrl-\/ display the same result as bash
+
+* Features
+
+- Prompt
+
+- Look for the right executable in the PATH environment
+
 * Usage
 ~make~ to build the project
 ~make fclean~ to clean the project
 ~./minishell~ to run the executable.
-
-Do some commands !
