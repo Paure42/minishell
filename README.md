@@ -1,21 +1,21 @@
 
 # Table of Contents
 
-1.  [Project](#org9be8189)
-2.  [Built-in](#org4ae03ab)
-3.  [Features](#org1bb5643)
-4.  [Usage](#org05e090f)
+1.  [Project](#org28da86f)
+2.  [Built-in](#org1a88eec)
+3.  [Features](#org7d22d86)
+4.  [Usage](#org76ac2a0)
 
 
 
-<a id="org9be8189"></a>
+<a id="org28da86f"></a>
 
 # Project
 
 Create a simple shell by reproducing some functionnalities of bash.
 
 
-<a id="org4ae03ab"></a>
+<a id="org1a88eec"></a>
 
 # Built-in
 
@@ -48,7 +48,7 @@ Create a simple shell by reproducing some functionnalities of bash.
 -   *ctrl-C, ctrl-D and ctrl-\\* display the same result as bash
 
 
-<a id="org1bb5643"></a>
+<a id="org7d22d86"></a>
 
 # Features
 
@@ -57,11 +57,13 @@ Create a simple shell by reproducing some functionnalities of bash.
 -   Look for the right executable in the PATH environment
 
 
-<a id="org05e090f"></a>
+<a id="org76ac2a0"></a>
 
 # Usage
 
 `make` to build the project
+
 `make fclean` to clean the project
+
 `./minishell` to run the executable.
 
