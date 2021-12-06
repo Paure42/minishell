@@ -1,21 +1,21 @@
 
 # Table of Contents
 
-1.  [Project](#orga753e53)
-2.  [Built-in](#org7c63e9d)
-3.  [Features](#org26eb46d)
-4.  [Usage](#orgf012f67)
+1.  [Project](#org9be8189)
+2.  [Built-in](#org4ae03ab)
+3.  [Features](#org1bb5643)
+4.  [Usage](#org05e090f)
 
 
 
-<a id="orga753e53"></a>
+<a id="org9be8189"></a>
 
 # Project
 
 Create a simple shell by reproducing some functionnalities of bash.
 
 
-<a id="org7c63e9d"></a>
+<a id="org4ae03ab"></a>
 
 # Built-in
 
@@ -33,22 +33,22 @@ Create a simple shell by reproducing some functionnalities of bash.
 
 -   `exit` without any options
 
--   &rsquo;*;*&rsquo; separates the commands
+-   *&rsquo;;&rsquo;* separates the commands
 
--   &rsquo;*&rsquo;*&rsquo; and &rsquo;*&ldquo;*&rsquo; work the same as bash except for multiline
+-   *&rsquo;&rsquo;&rsquo;* and *&rsquo;&ldquo;&rsquo;* work the same as bash except for multiline
 
--   &rsquo;*<*&rsquo; and &rsquo;*>* and &rsquo;*>>*&rsquo; work the same as bash
+-   *&rsquo;<&rsquo;* and *&rsquo;>&rsquo;* and *&rsquo;>>&rsquo;* work the same as bash
 
--   &rsquo;*|*&rsquo; work the same as bash
+-   *&rsquo;|&rsquo;* work the same as bash
 
--   environment variables followed by &rsquo;*$*&rsquo; work the same as bash
+-   environment variables followed by *&rsquo;$&rsquo;* work the same as bash
 
--   &rsquo;*$?*&rsquo; work the same as bash
+-   *&rsquo;$?&rsquo;* work the same as bash
 
 -   *ctrl-C, ctrl-D and ctrl-\\* display the same result as bash
 
 
-<a id="org26eb46d"></a>
+<a id="org1bb5643"></a>
 
 # Features
 
@@ -57,7 +57,7 @@ Create a simple shell by reproducing some functionnalities of bash.
 -   Look for the right executable in the PATH environment
 
 
-<a id="orgf012f67"></a>
+<a id="org05e090f"></a>
 
 # Usage
 

@@ -20,17 +20,17 @@ Create a simple shell by reproducing some functionnalities of bash.
 
 - ~exit~ without any options
 
-- '/;/' separates the commands
+- /';'/ separates the commands
 
-- '/'/' and '/"/' work the same as bash except for multiline
+- /'''/ and /'"'/ work the same as bash except for multiline
 
-- '/</' and '/>/ and '/>>/' work the same as bash
+- /'<'/ and /'>'/ and /'>>'/ work the same as bash
 
-- '/|/' work the same as bash
+- /'|'/ work the same as bash
 
-- environment variables followed by '/$/' work the same as bash
+- environment variables followed by /'$'/ work the same as bash
 
-- '/$?/' work the same as bash
+- /'$?'/ work the same as bash
 
 - /ctrl-C, ctrl-D and ctrl-\/ display the same result as bash
 
